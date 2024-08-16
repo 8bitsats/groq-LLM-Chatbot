@@ -1,0 +1,13 @@
+prefix=D:/Langchain/myenv/Library
+exec_prefix=D:/Langchain/myenv/Library
+libdir=D:/Langchain/myenv/Library/lib
+sharedlibdir=D:/Langchain/myenv/Library/lib
+includedir=D:/Langchain/myenv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
